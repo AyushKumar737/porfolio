@@ -20,20 +20,45 @@
   <link href="./main.3f6952e4.css" rel="stylesheet">
   <style>
     @media screen and (max-width: 600px) {
-  .img-responsive {
-    display: none;
-  }
+      .img-responsive {
+        display: none;
+      }
 
-  button {
-    display: block;
-    margin: 20px auto; /* Center horizontally with auto margins */
-    height: 30px;
-    width: 120px;
-    background-color: rgb(230, 73, 25);
-    border-radius: 6px;
-    box-shadow: 3px 3px 3px rgb(126, 122, 122);
-    font-family: 'Courier New', Courier, monospace;
-  }
+      .button {
+        display: block;
+        margin: 20px auto;
+        height: 30px;
+        width: 150px;
+        background-color: rgb(69, 67, 66);
+        border-radius: 6px;
+        box-shadow: 3px 3px 3px rgb(126, 122, 122);
+        font-family: 'Courier New', Courier, monospace;
+      }
+    }
+
+    .img-responsive {
+      display: block;
+      border-radius: 10px;
+      height: 550px;
+      width: auto;
+      margin-top: 50px;
+
+    }
+
+    .button {
+      float: right;
+      margin-right: 200px;
+      height: 40px;
+      width: 160px;
+      background-color: rgb(68, 63, 63);
+      border-radius: 6px;
+      box-shadow: 3px 3px 3px rgb(126, 122, 122);
+      font-size: 1.25em;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      text-align: center;
+      border: none;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -114,12 +139,11 @@
                   </p>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                  <img src="./assets/images/1.jpg" class="img-responsive" alt="">
+                  <img src="./assets/images/img.jpg" class="img-responsive" alt="">
                 </div>
-                <button><a href="Ayush.pdf" download="Ayush.pdf"
-                    style="text-decoration: none; color: aliceblue; ">Download
-                    Cv</a></button>
               </div>
+              <button class="button" onclick="window.location.href='Ayush.pdf';" download="Ayush.pdf">Download My
+                CV</button>
             </div>
           </div>
 
